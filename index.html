@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<body style="background-color: rgb(88, 79, 95)"></body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CSS Cheat Sheet</title>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>CSS Snippet Cheat Sheet</h1>
+        <p>Having some trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add
+            it to this page!</p>
+    </header>
+
+    <Main>
+        <div class="box">
+            <header>Flexbox Row</header>
+            <p>.row {<br>
+                &nbsp;&nbsp; display: flex;<br>
+                &nbsp;&nbsp; flex-direction: row; <br>
+                &nbsp;&nbsp; flex-wrap: wrap;<br>
+                }
+            </p>
+        </div>
+        <div class="box">
+            <header>Flexbox Column</header>
+            <p>.column{ <br>
+                &nbsp;&nbsp; display: flex;<br>
+                &nbsp;&nbsp; flex-direction: column<br>
+                }
+            </p>
+        </div>
+        <div class="box">
+            <header>Grid Layout</header>
+            <p>.grid{<br>
+                &nbsp;&nbsp; display: grid;<br>
+                &nbsp;&nbsp; width: 100%<br>
+                &nbsp;&nbsp; grid-template-columns:<br>
+                &nbsp;&nbsp; repeat(12. 1fr):<br>
+                }
+            </p>
+        </div>
+        <div class="box">
+            <header>Linear Gradients</header>
+            <p>
+                .linear-gradient-background {<br>
+                &nbsp;&nbsp; background-image: linear-gradient (<br>
+                &nbsp;&nbsp; rgba() 0%<br>
+                &nbsp;&nbsp; rgba() 100%<br>
+
+                );<br>
+                }
+            </p>
+        </div>
+        <div class="box">
+            <header>Box Transition Glow</header>
+            <p>.code-card .card-header {<br>
+                &nbsp;&nbsp; border-radius: 8px;<br>
+                &nbsp;&nbsp; .transition: all 0.5s ease-in-out; <br>
+                }<br>
+
+                .code-card:hover,<br>
+                .code-card:hover .card-header {<br>
+                &nbsp;&nbsp; box-shadow: inset 0px 0px 8px <br>
+                rgba(), 0 0 15px
+                rgba();<br>
+
+                }
+            </p>
+        </div>
+        <div class="box">
+            <header>Overlay Card with Title</header>
+            <p>.card-header {<br>
+                &nbsp;&nbsp; position: relative;<br>
+                &nbsp;&nbsp; margin-top: - 20px;<br>
+                }
+            </p>
+        </div>
+
+
+    </Main>
+
+</body>
+
+</html>
